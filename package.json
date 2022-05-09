@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/app.js",
+    "generate": "nodemon src/app.js",
+    "erase": "rm output/* -rf",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
